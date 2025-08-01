@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spoiler set="Dark Tower">
+  <card>
+    <name>Talitha Unwin</name>
+    <cost>1G</cost>
+    <type>
+      <supertype>Legendary Creature</supertype>
+      <subtype>Human Peasant </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>When Talitha Unwin enters, create a Treasure token.
+Whenever one or more other creatures you control enter, create a Food token.</rules>
+    <flavor>Before Eddie’s amazed eyes, Roland knelt before her in the dust of the town square. “Will you bless me, Old Mother?”</flavor>
+    <stats>
+      <power>1</power>
+      <toughness>1</toughness>
+    </stats>
+    <illustrator></illustrator>
+    <number>0394</number>
+  </card>
+  <card>
+    <name>Trick shot</name>
+    <cost>UR</cost>
+    <type>
+      <supertype>Instant</supertype>
+      <subtype></subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Trick shot deals 2 damage to any target.
+Deft — Reload 1 (You have deft if you control a Gunslinger. Choose one — Draw a card and lose 1 life; or put a charge counter on target permanent)</rules>
+    <flavor>“We deal in lead.” —Roland Deschain</flavor>
+    <stats>
+      <power></power>
+      <toughness></toughness>
+    </stats>
+    <illustrator></illustrator>
+    <number>0446</number>
+  </card>
+  <card>
+    <name>Deputize</name>
+    <cost>1W/U</cost>
+    <type>
+      <supertype>Sorcery</supertype>
+      <subtype></subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Up to two target creatures you control become a Gunslinger in addition to their other types. Investigate once for each creature that became a Gunslinger this way.</rules>
+    <flavor>“Awful good of you there, Jonas. Shiny. Bet it’ll impress the ladies.” —Clay Reynolds</flavor>
+    <stats>
+      <power></power>
+      <toughness></toughness>
+    </stats>
+    <illustrator></illustrator>
+    <number>0461</number>
+  </card>
+  <card>
+    <name>Wander</name>
+    <cost>1G</cost>
+    <type>
+      <supertype>Sorcery</supertype>
+      <subtype></subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Trek (Mill three cards. You may put a land card from among them into your hand.)
+Until end of turn, whenever a land you control enters, put a +1/+1 counter on target creature.</rules>
+    <flavor>“Definition of a wanderer: a guy who’s always looking beyond.” —Eddie Dean</flavor>
+    <stats>
+      <power></power>
+      <toughness></toughness>
+    </stats>
+    <illustrator></illustrator>
+    <number>0499</number>
+  </card>
+  <card>
+    <name>Andy the Messenger Robot</name>
+    <cost>X</cost>
+    <type>
+      <supertype>Legendary Artifact Creature</supertype>
+      <subtype>Construct </subtype>
+    </type>
+    <rarity>C</rarity>
+    <rules>Load X (This enters with X charge counters on it.)
+Andy gets +1/+1 for each charge counter on it.
+T, Remove a counter from a permanent you control: Choose one — Put a charge counter on target artifact; or put a +1/+1 counter on target creature.</rules>
+    <flavor>Design: MESSENGER (Many other Functions)
+Serial # DNF-34821-V-63</flavor>
+    <stats>
+      <power>0</power>
+      <toughness>0</toughness>
+    </stats>
+    <illustrator></illustrator>
+    <number>0500</number>
+  </card>
+</spoiler>
