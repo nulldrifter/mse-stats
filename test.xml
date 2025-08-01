@@ -1,94 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<spoiler set="Dark Tower">
-  <card>
-    <name>Talitha Unwin</name>
-    <cost>1G</cost>
-    <type>
-      <supertype>Legendary Creature</supertype>
-      <subtype>Human Peasant </subtype>
-    </type>
-    <rarity>C</rarity>
-    <rules>When Talitha Unwin enters, create a Treasure token.
-Whenever one or more other creatures you control enter, create a Food token.</rules>
-    <flavor>Before Eddie’s amazed eyes, Roland knelt before her in the dust of the town square. “Will you bless me, Old Mother?”</flavor>
-    <stats>
-      <power>1</power>
-      <toughness>1</toughness>
-    </stats>
-    <illustrator></illustrator>
-    <number>0394</number>
-  </card>
-  <card>
-    <name>Trick shot</name>
-    <cost>UR</cost>
-    <type>
-      <supertype>Instant</supertype>
-      <subtype></subtype>
-    </type>
-    <rarity>C</rarity>
-    <rules>Trick shot deals 2 damage to any target.
-Deft — Reload 1 (You have deft if you control a Gunslinger. Choose one — Draw a card and lose 1 life; or put a charge counter on target permanent)</rules>
-    <flavor>“We deal in lead.” —Roland Deschain</flavor>
-    <stats>
-      <power></power>
-      <toughness></toughness>
-    </stats>
-    <illustrator></illustrator>
-    <number>0446</number>
-  </card>
-  <card>
-    <name>Deputize</name>
-    <cost>1W/U</cost>
-    <type>
-      <supertype>Sorcery</supertype>
-      <subtype></subtype>
-    </type>
-    <rarity>C</rarity>
-    <rules>Up to two target creatures you control become a Gunslinger in addition to their other types. Investigate once for each creature that became a Gunslinger this way.</rules>
-    <flavor>“Awful good of you there, Jonas. Shiny. Bet it’ll impress the ladies.” —Clay Reynolds</flavor>
-    <stats>
-      <power></power>
-      <toughness></toughness>
-    </stats>
-    <illustrator></illustrator>
-    <number>0461</number>
-  </card>
-  <card>
-    <name>Wander</name>
-    <cost>1G</cost>
-    <type>
-      <supertype>Sorcery</supertype>
-      <subtype></subtype>
-    </type>
-    <rarity>C</rarity>
-    <rules>Trek (Mill three cards. You may put a land card from among them into your hand.)
-Until end of turn, whenever a land you control enters, put a +1/+1 counter on target creature.</rules>
-    <flavor>“Definition of a wanderer: a guy who’s always looking beyond.” —Eddie Dean</flavor>
-    <stats>
-      <power></power>
-      <toughness></toughness>
-    </stats>
-    <illustrator></illustrator>
-    <number>0499</number>
-  </card>
-  <card>
-    <name>Andy the Messenger Robot</name>
-    <cost>X</cost>
-    <type>
-      <supertype>Legendary Artifact Creature</supertype>
-      <subtype>Construct </subtype>
-    </type>
-    <rarity>C</rarity>
-    <rules>Load X (This enters with X charge counters on it.)
-Andy gets +1/+1 for each charge counter on it.
-T, Remove a counter from a permanent you control: Choose one — Put a charge counter on target artifact; or put a +1/+1 counter on target creature.</rules>
-    <flavor>Design: MESSENGER (Many other Functions)
-Serial # DNF-34821-V-63</flavor>
-    <stats>
-      <power>0</power>
-      <toughness>0</toughness>
-    </stats>
-    <illustrator></illustrator>
-    <number>0500</number>
-  </card>
-</spoiler>
+<cockatrice_carddatabase version="4">
+    <sets>
+        <set>
+            <name></name>
+            <longname>Dark Tower</longname>
+            <settype></settype>
+        </set>
+    </sets>
+    <cards>
+
+        <card>
+            <name>Pull of Eluria</name>
+            <set rarity="common"></set>
+            <prop>
+                <colors>W</colors>
+                <manacost>2WW</manacost>
+                <cmc>4</cmc>
+                <type>Enchantment - Saga </type>
+                <maintype>Enchantment</maintype>
+            </prop>
+            <tablerow>1</tablerow>
+            <text>Read ahead (Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don’t trigger. Sacrifice after III.)
+                I — Investigate (Create a Clue token. It’s an artifact with “{2}, Sacrifice this artifact: Draw a card.”)
+                II — Create two 1/1 black Vampire tokens with lifelink.
+                III — Sacrifice a creature.  Distribute X +1/+1 counters among creatures you control, where X is that creature’s power.</text>
+        </card>
+        <card>
+            <name>Dutch Hill Mansion</name>
+            <set rarity="common"></set>
+            <prop>
+                <colors></colors>
+                <manacost>2</manacost>
+                <cmc>2</cmc>
+                <type>Artifact Creature - Wall </type>
+                <maintype>Creature</maintype>
+                <pt>0/6</pt>
+            </prop>
+            <tablerow>2</tablerow>
+            <text>Defender, menace
+                {4}: Dutch Hill Mansion loses Defender and gets +4/+0.  Sacrifice it at end of combat.</text>
+        </card>
+        <card>
+            <name>Sunstroke</name>
+            <set rarity="common"></set>
+            <prop>
+                <colors>W</colors>
+                <manacost>W</manacost>
+                <cmc>1</cmc>
+                <type>Enchantment - Aura </type>
+                <maintype>Enchantment</maintype>
+            </prop>
+            <tablerow>1</tablerow>
+            <text>Enchant creature
+                Enchanted creature can’t attack or block unless its controller pays {3}.
+                Whenever enchanted creature becomes tapped, it doesn’t untap during its controller’s next untap step.</text>
+        </card>
+        <card>
+            <name>Baleful Polymorph</name>
+            <set rarity="common"></set>
+            <prop>
+                <colors>U</colors>
+                <manacost>1U</manacost>
+                <cmc>2</cmc>
+                <type>Enchantment - Aura </type>
+                <maintype>Enchantment</maintype>
+            </prop>
+            <tablerow>1</tablerow>
+            <text>Enchant creature
+                Enchanted creature loses all abilities and is a white Dog creature with base power and toughness 1/1.</text>
+        </card>
+        <card>
+            <name>Enter the Clearing</name>
+            <set rarity="common"></set>
+            <prop>
+                <colors>BG</colors>
+                <manacost>1BG</manacost>
+                <cmc>3</cmc>
+                <type>Enchantment</type>
+                <maintype>Enchantment</maintype>
+            </prop>
+            <tablerow>1</tablerow>
+            <text>Whenever a creature you control dies, trek. (Mill three cards. You may put a land card from among them into your hand.)
+                Sacrifice Enter the Clearing: Target player shuffles up to three target cards from their graveyard into their library.</text>
+        </card>
+        <card>
+            <name>Form Ka-tet</name>
+            <set rarity="common"></set>
+            <prop>
+                <colors>WR</colors>
+                <manacost>R/W</manacost>
+                <cmc>1</cmc>
+                <type>Enchantment - Aura </type>
+                <maintype>Enchantment</maintype>
+            </prop>
+            <tablerow>1</tablerow>
+            <text>Enchanted creature has ka-tet and is a Gunslinger in addition to its other types. (This creature gains all static abilities of other creatures you control with ka-tet.)
+                Cycling {2} ({2}, Discard this card: Draw a card.)</text>
+        </card>
+        <card>
+            <name>Rallying Cry_ALT</name>
+            <set rarity="common"></set>
+            <prop>
+                <colors>R</colors>
+                <manacost>3R</manacost>
+                <cmc>4</cmc>
+                <type>Enchantment</type>
+                <maintype>Enchantment</maintype>
+            </prop>
+            <tablerow>1</tablerow>
+            <text>Attacking creatures you control get +1/+0.
+                Deft — Attacking creatures you control have flanking. (You have deft if you control a Gunslinger.)</text>
+        </card>
+        <card>
+            <name>Blaine&apos;s Cradle</name>
+            <set rarity="common"></set>
+            <prop>
+                <colors></colors>
+                <manacost></manacost>
+                <cmc>0</cmc>
+                <type>Land</type>
+                <maintype>Land</maintype>
+            </prop>
+            <tablerow>0</tablerow>
+            <text>Load 1. (This enters with a charge counter on it.)
+                {T}: Add {C} for each charge counter on Blaine’s Cradle.</text>
+        </card>
+        <card>
+            <name>Flying in a Pink Dream</name>
+            <set rarity="common"></set>
+            <prop>
+                <colors>G</colors>
+                <manacost>2G</manacost>
+                <cmc>3</cmc>
+                <type>Instant</type>
+                <maintype>Instant</maintype>
+            </prop>
+            <tablerow>3</tablerow>
+            <text>Choose one or both —
+                • Destroy target creature with flying.
+                • Destroy target artifact or enchantment.</text>
+        </card>
+        <card>
+            <name>Demonic Possession</name>
+            <set rarity="common"></set>
+            <prop>
+                <colors>UB</colors>
+                <manacost>3UUB</manacost>
+                <cmc>6</cmc>
+                <type>Enchantment - Aura </type>
+                <maintype>Enchantment</maintype>
+            </prop>
+            <tablerow>1</tablerow>
+            <text>Enchant opponent
+                Enchanted player plays with the top card of their library revealed. You may play the top card of their library, and you may spend mana as though it were mana of any color to cast spells this way.</text>
+        </card>
+        <card>
+            <name>Rallying Cry</name>
+            <set rarity="common"></set>
+            <prop>
+                <colors>WG</colors>
+                <manacost>2G/W</manacost>
+                <cmc>3</cmc>
+                <type>Sorcery</type>
+                <maintype>Sorcery</maintype>
+            </prop>
+            <tablerow>3</tablerow>
+            <text>Put a +1/+1 counter on each creature you control. Those creatures gain flanking until end of turn. (Whenever a creature without flanking blocks that creature, the blocking creature gets -1/-1 until end of turn.)</text>
+        </card>
+<!--        <card>-->
+<!--            <name>Draw</name>-->
+<!--            <set rarity="common"></set>-->
+<!--            <prop>-->
+<!--                <colors>M</colors>-->
+<!--                <manacost>1U // 2W</manacost>-->
+<!--                <cmc>2</cmc>-->
+<!--                <type>Sorcery // Sorcery</type>-->
+<!--                <maintype>Sorcery</maintype>-->
+<!--            </prop>-->
+<!--            <tablerow>3</tablerow>-->
+<!--            <text>Search your library for an artifact card, reveal it, put it into your hand, then shuffle.-->
+<!--                -&#45;&#45;-->
+<!--                Exile target creature with the greatest power or toughness among creatures on the battlefield.</text>-->
+<!--        </card>-->
+<!--        <card>-->
+<!--            <name>Char</name>-->
+<!--            <set rarity="common"></set>-->
+<!--            <prop>-->
+<!--                <colors>M</colors>-->
+<!--                <manacost>2R // 3G/WG/W</manacost>-->
+<!--                <cmc>3</cmc>-->
+<!--                <type>Sorcery // Sorcery</type>-->
+<!--                <maintype>Sorcery</maintype>-->
+<!--            </prop>-->
+<!--            <tablerow>3</tablerow>-->
+<!--            <text>Tap target creature. It deals damage equal to its power to you and any target.-->
+<!--                -&#45;&#45;-->
+<!--                Put a +1/+1 counter on each creature you control, then gain life equal to the number of counters added this way.</text>-->
+<!--        </card>-->
+
+        <!-->Tokens</-->
+
+
+    </cards>
+</cockatrice_carddatabase>
